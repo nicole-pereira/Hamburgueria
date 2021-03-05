@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" fx:id="tela" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaNotaFiscalController">
+   <children>
+      <Label layoutX="255.0" layoutY="14.0" prefHeight="46.0" prefWidth="287.0" text="NOTA FISCAL" textAlignment="CENTER" textFill="#fce200">
+         <font>
+            <Font name="Arial Black" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="290.0" prefHeight="39.0" prefWidth="514.0" text="Seu pedido está em andamento e " textFill="#fce200">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="323.0" text="estará pronto em cerca de 10-15 minutos!" textFill="#fce200">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <ListView fx:id="lvNotaFiscal" layoutX="76.0" layoutY="80.0" prefHeight="200.0" prefWidth="549.0" />
+      <Button fx:id="btnSair" layoutX="560.0" layoutY="316.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffb700;" text="Sair">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
